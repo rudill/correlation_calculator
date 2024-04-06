@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:vertical_card_pager/vertical_card_pager.dart';
+
 
 class Results extends StatelessWidget {
   final int nValue;
@@ -292,7 +292,7 @@ class Results extends StatelessWidget {
                             )
                           ],
                           gradient: const LinearGradient(
-                            colors: [Color(0xFFEE8B60), Color(0xFF4B39EF)],
+                            colors: [Color(0xFF76ABAE), Color(0xFF4B39EF)],
                             stops: [0, 1],
                             begin: AlignmentDirectional(0.94, -1),
                             end: AlignmentDirectional(-0.94, 1),
@@ -305,7 +305,7 @@ class Results extends StatelessWidget {
                           children: [
                             const Center(
                               child: Text(
-                                'Sum of X',
+                                '∑x',
                                 style: TextStyle(
                                   fontFamily: 'Outfit',
                                   color: Colors.white,
@@ -350,7 +350,7 @@ class Results extends StatelessWidget {
                             )
                           ],
                           gradient: const LinearGradient(
-                            colors: [Color(0xFFEE8B60), Color(0xFF4B39EF)],
+                            colors: [Color(0xFF76ABAE), Color(0xFF4B39EF)],
                             stops: [0, 1],
                             begin: AlignmentDirectional(0.94, -1),
                             end: AlignmentDirectional(-0.94, 1),
@@ -363,7 +363,7 @@ class Results extends StatelessWidget {
                           children: [
                             const Center(
                               child: Text(
-                                'Sum of Y',
+                                '∑y',
                                 style: TextStyle(
                                   fontFamily: 'Outfit',
                                   color: Colors.white,
@@ -415,7 +415,7 @@ class Results extends StatelessWidget {
                               )
                             ],
                             gradient: const LinearGradient(
-                              colors: [Color(0xFFEE8B60), Color(0xFF4B39EF)],
+                              colors: [Color(0xFF76ABAE), Color(0xFF4B39EF)],
                               stops: [0, 1],
                               begin: AlignmentDirectional(0.94, -1),
                               end: AlignmentDirectional(-0.94, 1),
@@ -428,7 +428,7 @@ class Results extends StatelessWidget {
                             children: [
                               const Center(
                                 child: Text(
-                                  'Sum of XY',
+                                     '∑x²',
                                   style: TextStyle(
                                     fontFamily: 'Outfit',
                                     color: Colors.white,
@@ -440,7 +440,7 @@ class Results extends StatelessWidget {
                               ),
                               Center(
                                 child: Text(
-                                  XYsum.toStringAsFixed(2),
+                                 Xsquaredsum.toStringAsFixed(2),
                                   style: const TextStyle(
                                     fontFamily: 'Outfit',
                                     color: Colors.white,
@@ -473,7 +473,7 @@ class Results extends StatelessWidget {
                             )
                           ],
                           gradient: const LinearGradient(
-                            colors: [Color(0xFFEE8B60), Color(0xFF4B39EF)],
+                            colors: [Color(0xFF76ABAE), Color(0xFF4B39EF)],
                             stops: [0, 1],
                             begin: AlignmentDirectional(0.94, -1),
                             end: AlignmentDirectional(-0.94, 1),
@@ -486,7 +486,7 @@ class Results extends StatelessWidget {
                           children: [
                             const Center(
                               child: Text(
-                                'Squared Sum of Y',
+                                '∑y²',
                                 style: TextStyle(
                                   fontFamily: 'Outfit',
                                   color: Colors.white,
@@ -541,7 +541,7 @@ class Results extends StatelessWidget {
                             )
                           ],
                           gradient: const LinearGradient(
-                            colors: [Color(0xFFEE8B60), Color(0xFF4B39EF)],
+                            colors: [Color(0xFF76ABAE), Color(0xFF4B39EF)],
                             stops: [0, 1],
                             begin: AlignmentDirectional(0.94, -1),
                             end: AlignmentDirectional(-0.94, 1),
@@ -554,7 +554,7 @@ class Results extends StatelessWidget {
                           children: [
                             const Center(
                               child: Text(
-                                'Squared Sum of X',
+                                '∑xy',
                                 style: TextStyle(
                                   fontFamily: 'Outfit',
                                   color: Colors.white,
@@ -566,7 +566,7 @@ class Results extends StatelessWidget {
                             ),
                             Center(
                               child: Text(
-                                Xsquaredsum.toStringAsFixed(2),
+                                XYsum.toStringAsFixed(2),
                                 style: const TextStyle(
                                   fontFamily: 'Outfit',
                                   color: Colors.white,
