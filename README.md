@@ -1,4 +1,4 @@
-# Correlation Calculator
+# 📈 Correlation Calculator
 
 A mobile app for calculating correlation coefficients, built with Flutter. This project was created to assist with statistical correlation calculations, making it easier to analyze data sets on the go.
 
